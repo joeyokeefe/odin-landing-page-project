@@ -81,7 +81,9 @@ body{
     color: #1F2937;
     font-weight: bold;
     font-size: 36px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-weight: bold;
 }
 
 .info-cards{
@@ -116,11 +118,6 @@ ul{
     gap: 10px;
 }
 
-h1{
-    font-size: 48px;
-    font-weight: bold;
-}
-
 .inspiring-quote{
     background-color: #E5E7EB;
     display: flex;
@@ -128,6 +125,8 @@ h1{
     padding: 50px;
     justify-content: center;
     align-items: center;
+    padding-left: 200px;
+    padding-right:200px;
 }
 
 .quote-text{
