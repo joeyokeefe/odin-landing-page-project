@@ -7,6 +7,8 @@ body{
     padding-right: 150px;
     background-color: #1F2937;
     font-family: sans-serif;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header-top{
@@ -19,6 +21,7 @@ body{
 .header-main{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .header-middle{
@@ -30,20 +33,17 @@ body{
     justify-content: space-between;
 }
 
-#header-middle.p{
-    color: black;
-}
-
 .header-image{
     background-color: grey;
     display: flex;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 100px;
     padding-right: 100px;
     margin: 30px;
     align-items: center;
     justify-content: center;
+
 }
 
 .logo{
@@ -73,6 +73,8 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
+    padding: 50px;
 }
 
 .info-title{
@@ -117,4 +119,38 @@ ul{
 h1{
     font-size: 48px;
     font-weight: bold;
+}
+
+.inspiring-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-attrib{
+    font-weight: bolder;
+    align-self: flex-end;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
 }
