@@ -152,5 +152,54 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 700px;
+    max-width: 1000px;
+    background-color: #3882f6;
+    max-height: 200px;
+    margin: 50px;
+    border-radius: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left: 200px;
+    padding-right:200px;
+}
+
+.banner-text{
+    color:white;
+
+}
+
+.sign-up-header{
+    font-size: 30px;
+}
+
+.sign-up-paragraph{
+    font-weight: lighter;
+}
+
+.banner-button{
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid;
+    border-color: white;
+    max-width: 60px;
+    max-height:20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright{
+    color:white;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
 }
